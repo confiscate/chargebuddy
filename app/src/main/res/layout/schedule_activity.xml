@@ -27,28 +27,30 @@
                 android:layout_marginLeft="100dp"
                 android:layout_marginBottom="20dp"
                 android:text="10:00 AM"
-                android:onClick="selfDestruct" />
+                android:onClick="clickTen" />
             <Button
                 android:layout_height="wrap_content"
                 android:layout_width="150dp"
                 android:layout_marginLeft="100dp"
                 android:layout_marginBottom="20dp"
                 android:text="1:00 PM"
-                android:onClick="selfDestruct" />
+                android:clickable = "false"
+                android:textColor="#eee"
+                android:onClick="clickTen" />
             <Button
                 android:layout_height="wrap_content"
                 android:layout_width="150dp"
                 android:layout_marginLeft="100dp"
                 android:layout_marginBottom="20dp"
                 android:text="3:00 PM"
-                android:onClick="selfDestruct" />
+                android:onClick="clickThree" />
             <Button
                 android:layout_height="wrap_content"
                 android:layout_width="150dp"
                 android:layout_marginLeft="100dp"
                 android:layout_marginBottom="20dp"
                 android:text="4:15 PM"
-                android:onClick="selfDestruct" />
+                android:onClick="clickFour" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
